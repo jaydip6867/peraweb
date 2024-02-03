@@ -1115,7 +1115,17 @@
          	display: -webkit-box;
 			 overflow: hidden;
 		}
-		.santoshi
+		.santoshi , .font-secondary
 		{
-			font-family: 'Santoshi';
+			font-family: 'Santoshi' !important;
+		}
+		.santoshi.bg-soft-dark3.white{
+			text-shadow: 0 0 8px rgba(255, 255, 255,0.5);
+		}
+		.santoshi.bg-soft-dark3.red{
+			text-shadow: 0 0 10px rgba(217, 51, 51, 0.7);
+		}
+		[class*="bg-soft"]:before
+		{
+			opacity: 0;
 		}
